@@ -18,7 +18,7 @@ public class Main {
         BallView view = new BallView(simulation.getBalls(), simulation.getInitialHeights(), simulation.getPositionsX(), simulation.getGroundLevel());
         new BallController(simulation, view, 9.8);
 
-        JFrame frame = new JFrame("software.ulpgc.bounceballsimulator.model.Ball Simulator");
+        JFrame frame = new JFrame("Ball Simulator");
         frame.add(view);
         frame.setSize(1920, 1080);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
